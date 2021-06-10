@@ -1,3 +1,11 @@
+# How to install this project
+
+    npm install gitbook-cli -g 
+
+  And then do, 
+
+    gitbook serve
+
 # Markdown
 
 Most of the examples from this documentation are in Markdown. Markdown is default parser for GitBook, but one can also opt for the [AsciiDoc syntax](asciidoc.md).
