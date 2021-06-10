@@ -1,5 +1,9 @@
 # Introduction
+# How to build this project
 
+    npm install gitbook-cli -g 
+
+    gitbook serve
 # Summary
 
 * [Introduction](README.md)
