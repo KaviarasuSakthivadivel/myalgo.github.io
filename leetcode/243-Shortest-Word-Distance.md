@@ -6,11 +6,11 @@ For example, Assume that words = ["practice", "makes", "perfect", "coding", "mak
 
 Given word1 = “coding”, word2 = “practice”, return 3. Given word1 = "makes", word2 = "coding", return 1.
 
-## Thoughts 
+### Thoughts 
 Find the index of the two words in the loop, when both are found while traversing the list, update the shortest distance as `min(shortest, Math.abs(l - r))`
 
 
-## Solution
+### Solution
 ```java
 public class Solution {
     public int shortestDistance(String[] words, String word1, String word2) {

@@ -12,7 +12,7 @@ c) Replace a character
     Output: true
     Number of edits is 1
 
-## Thoughts
+### Thoughts
 Traverse both the strings using `i`, `j` for the first and second string respectively. Keep track of different characters using `count` variable.
 
 1. <u>**Base case:**</u> If the absolute difference between two strings are greater than 1, return `False`
@@ -23,7 +23,7 @@ Traverse both the strings using `i`, `j` for the first and second string respect
     3. Else if the strings are equal, increment count
     4. And finally increment `count`
 
-## Solution 
+### Solution 
 ```java
 public class OneEditDistance {
     public static boolean isOneEditDistance(String S, String T) {

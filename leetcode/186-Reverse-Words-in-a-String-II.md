@@ -7,12 +7,12 @@ For example, Given s = "the sky is blue", return "blue is sky the".
 
 Could you do it in-place without allocating extra space?
 
-## Thoughts
+### Thoughts
 First reverse the entire string. 
 
 Then, for each words, split by space and reverse the words. 
 
-## Solution
+### Solution
 
 ```java
 import java.util.Arrays;

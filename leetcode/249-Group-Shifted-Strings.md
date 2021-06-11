@@ -15,11 +15,11 @@ Given a list of strings which contains only lowercase alphabets, group all strin
     ]
 Note: For the return value, each inner list's elements must follow the lexicographic order.
 
-## Thoughts
+### Thoughts
 
 Use Hash function to calculate the difference between the current character and the previous character for all the characters in the string starting from index 1. 
 
-## Solution
+### Solution
 
 ```java
 import java.util.ArrayList;

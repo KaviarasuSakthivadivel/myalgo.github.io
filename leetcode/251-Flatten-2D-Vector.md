@@ -11,11 +11,11 @@ For example,
     
 By calling next repeatedly until hasNext returns false, the order of elements returned by next should be: [1,2,3,4,5,6].
 
-## Thoughts
+### Thoughts
 
 Keep a two pointer called, `listNumber` which tells which row in the list is being iterated. Another pointer called `iterator` which tells the current position of element in the current row. To get the value, use `vector.get(listNumer).get(iterator)`. When the row is completely iterated, go to next row. Increment the `listNumber` when row is completely iterated. 
 
-## Solution
+### Solution
 
 ```java
 import java.util.*;

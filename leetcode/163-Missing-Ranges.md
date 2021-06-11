@@ -6,7 +6,7 @@ Given a sorted integer array **nums**, where the range of elements are in the in
     Input: nums = [0, 1, 3, 50, 75], lower = 0 and upper = 99,
     Output: ["2", "4->49", "51->74", "76->99"]
 
-## Thoughts
+### Thoughts
 Have a variable `start` assigned as lower. Then loop through the nums array as `end`. 
 
 If the start is less than end, add range as `(start, end - 1);`
@@ -15,7 +15,7 @@ Make start as `end + 1`
 Finally, if the `start` is less than `upper`, then include those range as well, ie, `(start, upper);`
 
 
-## Solution
+### Solution
 
 ```java
 import java.util.ArrayList;

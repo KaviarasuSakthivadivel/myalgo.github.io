@@ -13,7 +13,7 @@ Output: [0,1]
 Output: Because nums[0] + nums[1] == 9, we return [0, 1].
 ```
 
-## Thoughts
+### Thoughts
 1. We have use HashMap to check if the complement is present while running the loop for the array. 
 
 2. We can sort the array and do binary search for the target number. Start from left and right corner, 
@@ -22,7 +22,7 @@ If the currentSum is greater than the target, decrement the right pointer down, 
 If the currentSum is lesser than the target, increment the left point up, so that you will get a bigger sum. 
 When the currentSum is equal to the target, return the left and right pointer elements. 
 
-## Solution
+### Solution
 ```java
 class Solution {
     public int[] twoSum(int[] nums, int target) {

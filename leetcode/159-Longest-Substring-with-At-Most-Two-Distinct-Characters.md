@@ -5,14 +5,14 @@ For example, Given s = “eceba”,
 
 T is "ece" which its length is 3.
 
-## Thoughts
+### Thoughts
 Use dynamic Sliding window pattern. We can use HashMap to store the frequency of the character in the current window.
 
 1. We will insert the characters from the beginning untill we have `k=2` distinct characters in the HashMap
 2. If the HashMap size is greater than `k=2` then we need to shrink the window size, while shrinking if the character's frequency is 0, then remove it from the Map. 
 3. At the end, we need to update the LongestSubstring as the Math of (LongestSubstring, (end - start + 1), i.e, comparing it with the window size.
 
-## Solution
+### Solution
 ```java
 package io.educative.slidingwindow;
 

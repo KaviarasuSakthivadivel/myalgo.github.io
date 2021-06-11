@@ -2,7 +2,7 @@
 
 Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such that nums[i] = nums[j] and the difference between i and j is at most k.
 
-## Thoughts
+### Thoughts
 This is similar to the contains duplicate problem [217. Contains Duplicate](217-contains-duplicate.md)
 
 The difference is that instead of only test if there is duplicate, we need to tell the difference of two indices of the duplicate values.
@@ -11,7 +11,7 @@ And we care about the smallest difference.
 
 Notice that you need to put value, index pair into the hashmap no matter if that element already appeared.
 
-### Solution
+#### Solution
 
 ```java
 public class Solution {
