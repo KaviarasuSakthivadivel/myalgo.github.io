@@ -14,9 +14,9 @@
 
 
 * TODO
-    * 247. Strobogrammatic Number II  
-    * 250. Count Univalue Subtrees 
-    * 255. Verify Preorder Sequence in Binary Search Tree
-    * 270. Closest Binary Search Tree Value
-    * 272. Closest Binary Search Tree Value II
-    * 285. Inorder Successor in BST  
+    * 247 Strobogrammatic Number II  
+    * 250 Count Univalue Subtrees 
+    * 255 Verify Preorder Sequence in Binary Search Tree
+    * 270 Closest Binary Search Tree Value
+    * 272 Closest Binary Search Tree Value II
+    * 285 Inorder Successor in BST  
