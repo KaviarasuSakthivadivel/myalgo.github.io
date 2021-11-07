@@ -4,6 +4,14 @@
     npm install gitbook-cli -g 
 
     gitbook serve
+
+## Migrated to honkit, so install the following and start the server using,
+
+    npm install honkit --save-dev
+
+    npx honkit serve
+
+    # https://github.com/honkit/honkit
 # Summary
 
 * [Introduction](README.md)
