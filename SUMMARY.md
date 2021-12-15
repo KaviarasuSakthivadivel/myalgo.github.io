@@ -56,5 +56,7 @@
         * [6. Find the Corrupt Pair](coding-pattern/cyclic-sort/6.md)
         * [7. Find the Smallest Missing Positive Number](coding-pattern/cyclic-sort/7.md)
         * [8. Find the First K Missing Positive Numbers](coding-pattern/cyclic-sort/8.md)
+    * [Merge Intervals Pattern](coding-pattern/merge-pattern/README.md)
+        * [1. Find all conflicting intervals](coding-pattern/merge-pattern/1.md)
 
 * [System Design](system-design/README.md)
