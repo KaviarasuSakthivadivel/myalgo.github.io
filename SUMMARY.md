@@ -4,6 +4,7 @@
     * [Markdown](markdown.md)
 * [Important Algorithms](important-algorithms/README.md)
     * [KMP Algorithm](important-algorithms/KMP-algorithm.md)
+    * [Binary Search Template](important-algorithms/binary-search-template.md)
 * [Leetcode](leetcode/README.md)
     * [1. Add Sum](leetcode/1-two-sum.md)
     * [134. Gas Station](leetcode/134-Gas-Station.md)
@@ -53,6 +54,7 @@
     * [545. Boundary of Binary Tree](leetcode/545-Boundary-of-Binary-Tree.md)
     * [582. Kill Process](leetcode/582-Kill-Process.md)
     * [663. Equal Tree Partition](leetcode/663-Equal-Tree-Partition.md)
+    * [681. Next Closest Time](leetcode/681-Next-Closes-Time.md)
     * [746. Min Cost Climbing Stairs](leetcode/746-min-cost-stairs.md)
     * [759. Employee Free Time](leetcode/759-Employee-Free-Time.md)
     * [1010. Pairs of Songs With Total Durations Divisible by 60](leetcode/1010-Pairs-of-Songs-With-Total Durations-Divisible-by-60.md)
@@ -73,5 +75,7 @@
         * [1. Find all conflicting intervals](coding-pattern/merge-pattern/1.md)
 * [Interview Questions](interview-questions/README.md)
     * [1. SuffixPair](interview-questions/general-oa/SuffixPair.md)
+    * [2. Twilio](interview-questions/twilio/OA.md)
+    * [3. FB](interview-questions/fb/1-Above-Average-Subarrays.md)
 
 * [System Design](system-design/README.md)

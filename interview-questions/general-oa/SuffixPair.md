@@ -54,7 +54,6 @@ public class SuffixPairs {
         strings.sort(Comparator.comparingInt(String::length));
         int pairsCount = 0;
         for(String s : strings) {
-
             pairsCount += suffixPairs.buildTreeAndGetCount(new StringBuilder(s).reverse().toString());
         }
         System.out.println(pairsCount);
