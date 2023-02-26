@@ -7,9 +7,9 @@ You can either start from the step with index 0, or the step with index 1.
 Return the minimum cost to reach the top of the floor.
 
 
-## Thoughts
+### Thoughts
 
-### Solution
+#### Solution
 ```java
 class Solution {
     public int minCostClimbingStairs(int[] cost) {

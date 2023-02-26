@@ -25,10 +25,10 @@ Implement the TwoSum class:
     twoSum.find(4);  // 1 + 3 = 4, return true
     twoSum.find(7);  // No two integers sum up to 7, return false
 
-## Thoughts
+### Thoughts
 We can use the HashMap to store the numbers. To find a pair with a given sum, iterate through the key set of HashMap, calculate the complement `(value - currentEl)` and check whether it's present or not.
 
-## Solution
+### Solution
 
 ```java
 import java.util.HashMap;

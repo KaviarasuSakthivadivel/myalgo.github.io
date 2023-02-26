@@ -7,13 +7,13 @@ Design a class which receives a list of words in the constructor, and implements
 
     Given word1 = “coding”, word2 = “practice”, return 3. Given word1 = "makes", word2 = "coding", return 1.
 
-## Thoughts
+### Thoughts
 
 Design a class with a HashMap for holding all the words with the respective index in the string array. 
 
 When searching for the shortest distance, get both the index list from the HashMap. 
 
-## Solution 
+### Solution 
 ```java
 import java.util.ArrayList;
 import java.util.HashMap;
