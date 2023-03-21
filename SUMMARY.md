@@ -77,6 +77,7 @@
         * [8. Find the First K Missing Positive Numbers](coding-pattern/cyclic-sort/8.md)
     * [Merge Intervals Pattern](coding-pattern/merge-pattern/README.md)
         * [1. Find all conflicting intervals](coding-pattern/merge-pattern/1.md)
+        * [Interview Questions](coding-pattern/merge-pattern/interview-questions.md)
 * [Interview Questions](interview-questions/README.md)
     * [1. SuffixPair](interview-questions/general-oa/SuffixPair.md)
     * [2. Twilio](interview-questions/twilio/OA.md)
