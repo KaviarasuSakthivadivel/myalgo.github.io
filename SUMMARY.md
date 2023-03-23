@@ -7,6 +7,8 @@
     * [Binary Search Template](important-algorithms/binary-search-template.md)
     * [Interesting Questions](important-algorithms/interesting-questions.md)
     * [Bit Manipulation](important-algorithms/bit-manipulation.md)
+* [My Question](my-questions/README.md)
+    * [1. String Tokeniser](my-questions/my-string-tokeniser.md)
 * [Leetcode](leetcode/README.md)
     * [1. Add Sum](leetcode/1-two-sum.md)
     * [134. Gas Station](leetcode/134-Gas-Station.md)

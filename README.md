@@ -19,6 +19,8 @@
     * [Markdown](markdown.md)
 * [Important Algorithms](important-algorithms/README.md)
     * [KMP Algorithm](important-algorithms/KMP-algorithm.md)
+* [My Question](my-questions/README.md)
+    * [1. My Question](my-questions/my-string-tokeniser.md)
 * [Leetcode](leetcode/README.md)
     * [1. Add Sum](leetcode/1-two-sum.md)
     * [134. Gas Station](leetcode/134-Gas-Station.md)
@@ -89,7 +91,8 @@
         * [Interview Questions](coding-pattern/merge-pattern/interview-questions.md)
 * [Interview Questions](interview-questions/README.md)
     * [1. SuffixPair](interview-questions/general-oa/SuffixPair.md)
-
+    * [2. Twilio](interview-questions/twilio/OA.md)
+    * [3. FB](interview-questions/fb/1-Above-Average-Subarrays.md)
 * [System Design](system-design/README.md)
 
 # Important Links
