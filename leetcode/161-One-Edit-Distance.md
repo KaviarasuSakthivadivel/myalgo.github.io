@@ -15,7 +15,7 @@ c) Replace a character
 ### Thoughts
 Traverse both the strings using `i`, `j` for the first and second string respectively. Keep track of different characters using `count` variable.
 
-1. <u>**Base case:**</u> If the absolute difference between two strings are greater than 1, return `False`
+1. Base case: If the absolute difference between two strings are greater than 1, return `False`
 2. If the current character in both the strings are same, continue. 
 3. Else If the count has become 1, and still the current Character in both strings are not equal, return `False`
     1. Here we need to check if the length of the strings. 
