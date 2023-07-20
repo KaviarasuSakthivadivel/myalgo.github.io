@@ -285,6 +285,76 @@ class Solution {
 
 # Breadth First Search
 
+### Template I
+
+---
+
+```java
+/**
+ * Return the length of the shortest path between root and target node.
+ */
+int BFS(Node root, Node target) {
+    Queue<Node> queue;  // store all nodes which are waiting to be processed
+    int step = 0;       // number of steps neeeded from root to current node
+    // initialize
+    add root to queue;
+    // BFS
+    while (queue is not empty) {
+        // iterate the nodes which are already in the queue
+        int size = queue.size();
+        for (int i = 0; i < size; ++i) {
+            Node cur = the first node in queue;
+            return step if cur is target;
+            for (Node next : the neighbors of cur) {
+                add next to queue;
+            }
+            remove the first node from queue;
+        }
+        step = step + 1;
+    }
+    return -1;          // there is no path from root to target
+}
+```
+
+### Template II
+
+---
+
+Sometimes, it is important to make sure that we `never visit a node twice`. Otherwise, we might get stuck in an infinite loop, _e.g._ in graph with cycle. If so, we can add a hash set to the code above to solve this problem. Here is the pseudocode after modification:
+
+```java
+/**
+ * Return the length of the shortest path between root and target node.
+ */
+int BFS(Node root, Node target) {
+    Queue<Node> queue;  // store all nodes which are waiting to be processed
+    Set<Node> visited;  // store all the nodes that we've visited
+    int step = 0;       // number of steps neeeded from root to current node
+    // initialize
+    add root to queue;
+    add root to visited;
+    // BFS
+    while (queue is not empty) {
+        // iterate the nodes which are already in the queue
+        int size = queue.size();
+        for (int i = 0; i < size; ++i) {
+            Node cur = the first node in queue;
+            return step if cur is target;
+            for (Node next : the neighbors of cur) {
+                if (next is not in visited) {
+                    add next to queue;
+                    add next to visited;
+                }
+            }
+            remove the first node from queue;
+        }
+        step = step + 1;
+    }
+    return -1;          // there is no path from root to target
+}
+```
+
+
 “Breadth-first search” algorithm can traverse all vertices of a “graph” and traverse all paths between two vertices. However, the most advantageous use case of “breadth-first search” is to efficiently find the shortest path between two vertices in a “graph” where **all edges have equal and positive weights**.
 
 ```java
@@ -1151,3 +1221,6 @@ class Solution {
 ```
 
 
+### More questions
+
+[[1857. Largest Color Value in a Directed Graph]]

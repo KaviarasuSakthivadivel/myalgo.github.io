@@ -1,4 +1,135 @@
 
+# Systems Design Interview Tips | SystemsExpert
+---
+**Units Cheat Sheet**
+
+These values are defined by the International System of Units.
+
+-   1kB = 1000 bytes
+-   1MB = 1000kB
+-   1GB = 1000MB
+-   1TB = 1000GB
+-   1PB = 1000TB
+
+**Storage Scale Cheat Sheet**
+
+-   A character  
+    \=> 1 byte
+-   Typical metadata for a "thing," excluding images (name, description, other attributes, etc.)  
+    \=> ~1-10KB
+-   A high-quality 1920x1080p image  
+    \=> ~2MB (realistically can be lossy-compressed by ~10-20x)
+-   20 minutes of HD video  
+    \=> ~1GB
+
+**Storage Capacity Cheat Sheet**
+
+How much storage can a single industry-grade machine have?
+
+-   ~10TB disk space
+-   ~256GB-1TB of RAM (1TB for really large/optimized machines)
+
+**Latency Cheat Sheet**
+
+How long does it take for a regular HTTP request to make a round trip, not bound by bandwidth?
+
+-   Intra-continental  
+    \=> ~50-150ms
+-   Cross-continental  
+    \=> ~200-500ms
+
+**Bandwidth Cheat Sheet**
+
+-   Mobile phone (4G)  
+    \=> ~1-3MB/s
+-   Public internet (home WiFi)  
+    \=> ~50-100MB/s
+-   Within a data center  
+    \=> ~5GB/s
+
+# Capacity Estimation
+
+### Facebook news feed
+
+Assumptions:
+
+1. 2 billion active monthly users.
+2. Users spend 30 minutes per day on the news feed.
+3. 1 post per user per day on average.
+4. 50% of posts contain media attachments.
+5. Data is stored for 5 years.
+
+Estimations:
+
+1. Daily active users (DAU): DAU = 2 billion * 30 minutes / 24 hours = ~2.5 million
+2. Posts per day: Posts per day = 2 billion posts
+3. Media posts per day: Media posts per day = 50% * 2 billion posts = 1 billion media posts
+4. Average media size: Assuming an average media size of 2 MB.
+5. Media storage per day: Media storage per day = 1 billion media posts * 2 MB = 2 PB
+6. Total media storage over 5 years: Total media storage = 2 PB * 365 days * 5 years = 3,650 PB (3.65 exabytes)
+
+Server capacity and storage configuration assumptions:
+
+1. Server capacity: Let's assume each server has a storage capacity of 200 TB.
+2. Redundancy and replication: Considering a replication factor of 3, each media file will have three copies stored across different servers.
+
+Calculation:
+
+Total number of servers needed = Total media storage / (Server capacity * Replication factor)
+
+Total number of servers needed = 3,650 PB / (200 TB * 3)
+
+Total number of servers needed ≈ 30,417
+
+### Twitter
+
+Please note the following numbers are for this exercise only as they are not real numbers from Twitter.
+
+Assumptions:
+
+- 300 million monthly active users.
+- 50% of users use Twitter daily.
+- Users post 2 tweets per day on average.
+- 10% of tweets contain media.
+- Data is stored for 5 years.
+
+Estimations:
+
+Query per second (QPS) estimate:
+
+- Daily active users (DAU) = 300 million * 50% = 150 million
+- Tweets QPS = 150 million * 2 tweets / 24 hour / 3600 seconds = ~3500
+- Peek QPS = 2 * QPS = ~7000
+
+We will only estimate media storage here.
+
+- Average tweet size:
+- tweet_id 64 bytes
+- text 140 bytes
+- media 1 MB
+- Media storage: 150 million * 2 * 10% * 1 MB = 30 TB per day
+- 5-year media storage: 30 TB * 365 * 5 = ~55 PB
+
+Server capacity and storage configuration assumptions:
+
+1. Server capacity: Let's assume each server has a storage capacity of 100 TB.
+2. Redundancy and replication: To ensure data durability and availability, we'll consider a replication factor of 3. This means that each media file will have three copies stored across different servers.
+
+Calculation:
+
+Total media storage required over 5 years = 55 PB
+
+Each server's storage capacity = 100 TB
+
+Total number of servers needed = Total media storage / (Server capacity * Replication factor)
+
+Total number of servers needed = 55 PB / (100 TB * 3)
+
+Total number of servers needed ≈ 183
+
+# Newsletter from Spotify
+
+
 This newsletter is written by guest author [Diego Ballona](https://www.dballona.com/), who is a senior engineering manager at Spotify.
 
 Capacity planning plays an integral role in the landscape of real-world system design. This complex exercise, far from being a mere theoretical consideration, is essential for engineers to accurately estimate the capacity needs of their proposed systems.

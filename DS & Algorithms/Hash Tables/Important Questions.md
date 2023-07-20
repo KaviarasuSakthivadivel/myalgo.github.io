@@ -1,3 +1,10 @@
+
+# Leetcode
+1. [[1218. Longest Arithmetic Subsequence of Given Difference]]
+
+
+# Interview Pen Questions
+
 # **Nearest Repeated Entries**
 ---
 
@@ -172,7 +179,7 @@ class Solution {
         for(int i = 0; i < maxTimeSlot; i++) {
             if(timeCache[i]) {
                 if(first != Integer.MAX_VALUE) {
-                    minmin = Math.min(min, i - prev);
+                    min = Math.min(min, i - prev);
                 }
 
                 first = Math.min(first, i);
