@@ -1,6 +1,8 @@
 
 # Leetcode
 1. [[1218. Longest Arithmetic Subsequence of Given Difference]]
+2. [[1282. Group the People Given the Group Size They Belong To]]
+3. 
 
 
 # Interview Pen Questions

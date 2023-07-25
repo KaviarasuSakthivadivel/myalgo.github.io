@@ -67,6 +67,15 @@ class HitCounter {
 
 ### Fancy without any DS
 
+```
+            602
+            302
+times    [1  2                ] 
+          1, 2, 3...n index
+    
+hit      [0  1  2  0  ...      ]
+```
+
 O(s) s is total seconds in given time interval, in this case 300.  
 basic ideal is using buckets. 1 bucket for every second because we only need to keep the recent hits info for 300 seconds. hit[] array is wrapped around by mod operation. Each hit bucket is associated with times[] bucket which record current time. If it is not current time, it means it is 300s or 600s... ago and need to reset to 1.
 

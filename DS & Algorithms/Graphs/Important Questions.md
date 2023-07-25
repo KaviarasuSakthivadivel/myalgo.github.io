@@ -1,3 +1,14 @@
+
+## Water related problems
+
+[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)  
+[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)  
+[694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)  
+[695. Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
+
+[[1254. Number of Closed Islands]]
+[[1020. Number of Enclaves]]
+
 ## River Sizes
 
 You're given a two-dimensional array (a matrix) of potentially unequal height and width containing only 0s and 1s. Each 0 represents land, and each 1 represents part of a river. A river consists of any number of 1s that are either horizontally or vertically adjacent (but not diagonally adjacent). The number of adjacent 1s forming a river determine its size.

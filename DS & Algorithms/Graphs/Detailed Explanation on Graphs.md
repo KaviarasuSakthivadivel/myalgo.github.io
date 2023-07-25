@@ -425,6 +425,9 @@ class Solution {
 ```
 
 
+## Important Question
+
+1. [[1319. Number of Operations to Make Network Connected]]
 
 # Minimum Spanning Tree
 
