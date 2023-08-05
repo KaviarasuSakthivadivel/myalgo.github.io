@@ -22,51 +22,32 @@ Use Hash function to calculate the difference between the current character and 
 ### Solution
 
 ```java
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-
-public class GroupShiftedString {
-    public static List<List<String>> groupStrings(String[] strings) {
-        List<List<String>> result = new ArrayList<>();
-        HashMap<String, List<String>> stringMap = new HashMap<>();
-
-        for(String s : strings) {
-            String key = getHashKey(s);
-            if(stringMap.containsKey(key)) {
-                stringMap.get(key).add(s);
-            } else {
-                List<String> list = new ArrayList<>();
-                list.add(s);
-                stringMap.put(key, list);
-            }
-        }
-
-        for(String key : stringMap.keySet()) {
-            List<String> stringList = stringMap.get(key);
-            Collections.sort(stringList);
-            result.add(stringList);
-        }
-
-        return result;
+class Solution {
+    // Designing the hash key such that, collision is there and all the shifted string goes to the same bucket. 
+    private char shiftChar(char ch, int shift) {
+        return (char) ((ch - shift + 26) % 26);
     }
-
-    private static String getHashKey(String s) {
-        if(s.length() == 0) {
-            return "0";
-        }
-
+    
+    private String _hash(String str) {
+        int shift = (int) str.charAt(0);
         StringBuilder sb = new StringBuilder();
-        for(int i = 1; i < s.length(); i++) {
-            int diff = (s.charAt(i) - s.charAt(i - 1) + 26) % 26;
-            sb.append(diff);
+        for(char ch : str.toCharArray()) {
+            char shiftedCh = shiftChar(ch, shift);
+            sb.append(shiftedCh);
         }
+        
         return sb.toString();
     }
-
-    public static void main(String[] args) {
-        System.out.println(groupStrings(new String[]{"abc", "bcd", "acef", "xyz", "az", "ba", "a", "z"}));
+    
+    public List<List<String>> groupStrings(String[] strings) {
+        HashMap<String, List<String>> map = new HashMap<>();
+        
+        for(String str : strings) {
+            String hashKey = _hash(str);
+            map.computeIfAbsent(hashKey, l -> new ArrayList<>()).add(str);
+        }
+        
+        return new ArrayList(map.values());
     }
 }
 ```

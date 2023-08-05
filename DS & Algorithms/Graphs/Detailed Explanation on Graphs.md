@@ -58,7 +58,7 @@ public class ValidPath {
                 return true;
             }
 
-            if(seen.add(u)) {
+            if(!seen.add(u)) {
                 if(graph.containsKey(u)) {
                     stack.addAll(graph.get(u));
                 }
@@ -283,6 +283,11 @@ class Solution {
 }
 ```
 
+## Important Questions
+
+[[329. Longest Increasing Path in a Matrix]]
+[[694. Number of Distinct Islands]]
+
 # Breadth First Search
 
 ### Template I
@@ -428,6 +433,9 @@ class Solution {
 ## Important Question
 
 1. [[1319. Number of Operations to Make Network Connected]]
+2. [[1730. Shortest Path to Get Food]]
+3. [[1293. Shortest Path in a Grid with Obstacles Elimination]]
+4. 
 
 # Minimum Spanning Tree
 
@@ -1227,3 +1235,14 @@ class Solution {
 ### More questions
 
 [[1857. Largest Color Value in a Directed Graph]]
+[[2115. Find All Possible Recipes from Given Supplies]]
+
+# Test Bipartite
+
+A **bipartite graph** also called a **bi-graph**, is a set of graph vertices, i.e, points where multiple lines meet, decomposed into two disjoint sets, meaning they have no element in common, such that no two graph vertices within the same set are **adjacent**.
+
+> **Adjacent nodes** are any two nodes that are connected by an edge.
+
+
+
+[[886. Possible Bipartition]]

@@ -8,6 +8,12 @@
 
 [[1254. Number of Closed Islands]]
 [[1020. Number of Enclaves]]
+[[694. Number of Distinct Islands]]
+
+## BFS
+[[1730. Shortest Path to Get Food]]
+[[994. Rotting Oranges]]
+[[1293. Shortest Path in a Grid with Obstacles Elimination]]
 
 ## River Sizes
 
@@ -34,7 +40,6 @@ matrix = [
 
 ```
 [1, 2, 2, 2, 5] 
-
 ```
 
 ### Hints

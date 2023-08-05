@@ -15,3 +15,8 @@
 - 862. [Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/discuss/143726/C%2B%2BJavaPython-O(N)-Using-Deque)
 - 209. [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/discuss/433123/JavaC++Python-Sliding-Window)
 
+Exactly `K` times = at most `K` times - at most `K - 1` times
+
+atMost(A, S) counts the number of the subarrays of A the sum of which is at most(less than or equal to) S. Therefore, we can use atMost(A, S) - atMost(A, S - 1) to get the number of the subarrays the sum of which is exactly S.  
+
+In the atMost function, the i to j window represents the subarrays. We use the j pointer to expand the window, when the sum of all numbers in the window is bigger than S, it's time for us to move the i pointer to shorten the window. Through this process, we can count the number of the subarrays.

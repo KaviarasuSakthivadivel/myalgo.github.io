@@ -28,3 +28,4 @@ node_modules/*
 .obsidian
 images/leetcode/system-design
 images/leetcode/videos
+*.mp4

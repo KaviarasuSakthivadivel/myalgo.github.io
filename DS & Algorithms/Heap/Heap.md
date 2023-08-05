@@ -85,6 +85,9 @@ PriorityQueue<Integer> heapWithValues= new PriorityQueue<>(Arrays.asList(3, 1, 2
 [[215. Kth Largest Element in an Array]]
 [[347. Top K Frequent Elements]]
 [[1337. The K Weakest Rows in a Matrix]]
+[[1229. Meeting Scheduler]]
+[[2402. Meeting Rooms III]]
+[[253-Meeting-Rooms-ii]]
 
 
 

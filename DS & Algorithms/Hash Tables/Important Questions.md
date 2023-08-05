@@ -2,7 +2,10 @@
 # Leetcode
 1. [[1218. Longest Arithmetic Subsequence of Given Difference]]
 2. [[1282. Group the People Given the Group Size They Belong To]]
-3. 
+3. [[1010. Pairs of Songs With Total Durations Divisible by 60]]
+4. [[1366. Rank Teams by Votes]]
+5. [[36. Valid Sudoku]]
+6. 
 
 
 # Interview Pen Questions

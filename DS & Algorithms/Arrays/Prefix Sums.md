@@ -1,4 +1,6 @@
-### Prefix Sum: How to Use: Number of Continuous Subarrays that Sum to Target
+# Prefix Sum: 
+
+**How to Use: Number of Continuous Subarrays that Sum to Target**
 
 You might want to use the prefix sum technique for the problems  
 like "Find a number of _continuous_ subarrays/submatrices/tree paths  
@@ -45,3 +47,14 @@ _Figure 6. Situation 2: The subarray starts somewhere in the middle._
 [[560. Subarray Sum Equals K]]
 [[930. Binary Subarrays With Sum]]
 [[437-Path-Sum-III]]
+
+
+# 2d Questions
+
+[[304. Range Sum Query 2D - Immutable]]
+
+
+
+# Prefix Product
+
+[[1352. Product of the Last K Numbers]]

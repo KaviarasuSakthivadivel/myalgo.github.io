@@ -34,7 +34,18 @@ public static int convertStringToInt(String str) {
 }
 ```
 
-### Square of Digits
+# Convert character from end to int
+
+```java
+int base = 1;
+int k = 0;
+while(!stack.isEmpty() && Character.isDigit(stack.peek())) {
+	k = k + base * (stack.pop() - '0');
+	base *= 10;
+}
+```
+
+# Square of Digits
 
 ```java
 private int squaresOfDigit(int n) {
