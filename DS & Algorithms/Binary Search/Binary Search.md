@@ -77,6 +77,8 @@ int binarySearch(int[] nums, int target){
 [[69. Sqrt(x)]]
 [[374. Guess Number Higher or Lower]]
 [[33. Search in Rotated Sorted Array]]
+[[1498. Number of Subsequences That Satisfy the Given Sum Condition]]
+[[981. Time Based Key-Value Store]]
 
 
 # Binary Search Template II
@@ -117,6 +119,8 @@ int binarySearch(int[] nums, int target){
 [[153. Find Minimum in Rotated Sorted Array]]
 [[162. Find Peak Element]]
 [[278. First Bad Version]]
+[[1011. Capacity To Ship Packages Within D Days]]
+[[540. Single Element in a Sorted Array]]
 
 
 # Binary Search Template III
@@ -158,6 +162,7 @@ int binarySearch(int[] nums, int target) {
 
 ## Questions
 
+[[441. Arranging Coins]]
 
 
 

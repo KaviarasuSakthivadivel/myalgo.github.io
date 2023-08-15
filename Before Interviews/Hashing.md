@@ -6,3 +6,4 @@ private char shiftChar(char ch, int shift) {
 }
 ```
 
+[[Maximum Number of Pairs in Array]]

@@ -4,6 +4,10 @@
 * [Maximum Sum Subarray of Size K](1.md)
 * [[1248. Count Number of Nice Subarrays]]
 * [[2024-Maximize-the-Confusion-of-an-Exam]]
+* [[1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit]]
+* [[1838. Frequency of the Most Frequent Element]]
+* [[1456. Maximum Number of Vowels in a Substring of Given Length]]
+* [[1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold]]
 
 - 1358. [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/discuss/516977/JavaC++Python-Easy-and-Concise)
 - 1248. [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/discuss/419378/JavaC%2B%2BPython-Sliding-Window-atMost(K)-atMost(K-1))

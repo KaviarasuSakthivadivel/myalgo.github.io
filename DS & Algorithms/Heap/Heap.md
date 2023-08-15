@@ -88,6 +88,9 @@ PriorityQueue<Integer> heapWithValues= new PriorityQueue<>(Arrays.asList(3, 1, 2
 [[1229. Meeting Scheduler]]
 [[2402. Meeting Rooms III]]
 [[253-Meeting-Rooms-ii]]
+[[1985. Find the Kth Largest Integer in the Array]]
 
 
+## Hard Priority Queue Problems
 
+[[1834. Single-Threaded CPU]]

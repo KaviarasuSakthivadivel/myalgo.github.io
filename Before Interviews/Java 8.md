@@ -18,7 +18,7 @@ res.stream().mapToInt(i->i).toArray();
 # Sort the array in reverse
 
 ```java
-Arrays.sort(arr, Collections.reverseOrder());
+Collections.sort(arr, Collections.reverseOrder());
 ```
 
 # Sort the Object based on a field
@@ -33,4 +33,22 @@ Arrays.sort(intervals, Comparator.comparingInt((Interval i) -> i.start));
 ```java
 return list.toArray(new int[list.size()][]);
 ```
+
+# Sort array by frequency
+
+```java
+public int[] frequencySort(int[] nums) {
+	HashMap<Integer, Integer> freqMap = new HashMap<>();
+
+	for(int num : nums) {
+		freqMap.put(num, freqMap.getOrDefault( num, 0) + 1);
+	}
+
+	return Arrays.stream(nums)
+					.boxed()
+					.sorted((a, b) -> freqMap.get(a) != freqMap.get(b) ? freqMap.get(a) - freqMap.get(b) : b - a)
+					.mapToInt(n -> n).toArray();
+}
+```
+
 

@@ -287,6 +287,7 @@ class Solution {
 
 [[329. Longest Increasing Path in a Matrix]]
 [[694. Number of Distinct Islands]]
+[[1376. Time Needed to Inform All Employees]]
 
 # Breadth First Search
 
@@ -435,7 +436,7 @@ class Solution {
 1. [[1319. Number of Operations to Make Network Connected]]
 2. [[1730. Shortest Path to Get Food]]
 3. [[1293. Shortest Path in a Grid with Obstacles Elimination]]
-4. 
+4. [[2101. Detonate the Maximum Bombs]]
 
 # Minimum Spanning Tree
 
@@ -1152,6 +1153,12 @@ class Solution {
 ```
 
 
+### Topological Sorting Questions
+
+[[1136. Parallel Courses]]
+[[207. Course Schedule]]
+[[210. Course Schedule II]]
+
 ### Alien Dictionary
 There is a new alien language that uses the English alphabet. However, the order among the letters is unknown to you.
 
@@ -1246,3 +1253,8 @@ A **bipartite graph** also called a **bi-graph**, is a set of graph vertices,
 
 
 [[886. Possible Bipartition]]
+
+
+# Union Find
+
+[[684. Redundant Connection]]

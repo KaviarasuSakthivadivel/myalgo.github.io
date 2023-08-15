@@ -47,6 +47,9 @@ _Figure 6. Situation 2: The subarray starts somewhere in the middle._
 [[560. Subarray Sum Equals K]]
 [[930. Binary Subarrays With Sum]]
 [[437-Path-Sum-III]]
+[[862. Shortest Subarray with Sum at Least K]]
+[[974. Subarray Sums Divisible by K]]
+[[1854. Maximum Population Year]]
 
 
 # 2d Questions

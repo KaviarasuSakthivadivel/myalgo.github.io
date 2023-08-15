@@ -5,7 +5,7 @@
 3. [[1010. Pairs of Songs With Total Durations Divisible by 60]]
 4. [[1366. Rank Teams by Votes]]
 5. [[36. Valid Sudoku]]
-6. 
+6. [[1027. Longest Arithmetic Subsequence]]
 
 
 # Interview Pen Questions
