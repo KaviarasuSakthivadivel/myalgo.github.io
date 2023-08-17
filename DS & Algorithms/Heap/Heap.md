@@ -94,3 +94,4 @@ PriorityQueue<Integer> heapWithValues= new PriorityQueue<>(Arrays.asList(3, 1, 2
 ## Hard Priority Queue Problems
 
 [[1834. Single-Threaded CPU]]
+[[1353. Maximum Number of Events That Can Be Attended]]

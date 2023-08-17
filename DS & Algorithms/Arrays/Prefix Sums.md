@@ -50,6 +50,7 @@ _Figure 6. Situation 2: The subarray starts somewhere in the middle._
 [[862. Shortest Subarray with Sum at Least K]]
 [[974. Subarray Sums Divisible by K]]
 [[1854. Maximum Population Year]]
+[[2439. Minimize Maximum of Array]]
 
 
 # 2d Questions

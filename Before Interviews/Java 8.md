@@ -52,3 +52,11 @@ public int[] frequencySort(int[] nums) {
 ```
 
 
+# Filter function use cases
+
+## Get occurences of a particular character and cheching
+
+```java
+if(queryIP.chars().filter(ch -> ch == '.').count() == 3) {}
+```
+

@@ -6,6 +6,7 @@
 4. [[1366. Rank Teams by Votes]]
 5. [[36. Valid Sudoku]]
 6. [[1027. Longest Arithmetic Subsequence]]
+7. [[380. Insert Delete GetRandom O(1)]]
 
 
 # Interview Pen Questions
