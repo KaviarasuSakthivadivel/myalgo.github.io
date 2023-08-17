@@ -5,9 +5,7 @@
 [[216. Combination Sum III]]
 [[17. Letter Combinations of a Phone Number]]
 [[46. Permutations]]
-
-
+[[967. Numbers With Same Consecutive Differences]]
 
 # Knapsack problem
 
-[[]]

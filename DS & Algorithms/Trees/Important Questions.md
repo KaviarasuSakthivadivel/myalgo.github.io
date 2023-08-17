@@ -17,3 +17,8 @@
 # Serialise & Deserialise
 [[572. Subtree of Another Tree]]
 
+
+# BST
+
+[[669. Trim a Binary Search Tree]]
+
