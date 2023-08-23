@@ -7,6 +7,9 @@
 5. [[36. Valid Sudoku]]
 6. [[1027. Longest Arithmetic Subsequence]]
 7. [[380. Insert Delete GetRandom O(1)]]
+8. [[350. Intersection of Two Arrays II]]
+9. [[349. Intersection of Two Arrays]]
+10. [[2023. Number of Pairs of Strings With Concatenation Equal to Target]]
 
 
 # Interview Pen Questions

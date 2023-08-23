@@ -1,12 +1,10 @@
 
 ## Water related problems
 
-[130. Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)  
-[200. Number of Islands](https://leetcode.com/problems/number-of-islands/)  
-[694. Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/)  
-[[695. Max Area of Island]]
 
+[[695. Max Area of Island]]
 [[1254. Number of Closed Islands]]
+[[200. Number of Islands]]
 [[1020. Number of Enclaves]]
 [[694. Number of Distinct Islands]]
 [[463. Island Perimeter]]

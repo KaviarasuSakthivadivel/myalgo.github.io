@@ -10,6 +10,7 @@
 [[1038. Binary Search Tree to Greater Sum Tree]]
 [[366. Find Leaves of Binary Tree]]
 [[938. Range Sum of BST]]
+[[863. All Nodes Distance K in Binary Tree]]
 
 ### LCA
 [[2096. Step-By-Step Directions From a Binary Tree Node to Another]]
