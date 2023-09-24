@@ -7,6 +7,7 @@
 [[46. Permutations]]
 [[967. Numbers With Same Consecutive Differences]]
 [[131. Palindrome Partitioning]]
+[[526. Beautiful Arrangement]]
 
 # Knapsack problem
 

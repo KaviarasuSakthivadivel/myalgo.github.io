@@ -3,3 +3,5 @@
 [[1470-Shuffle-the-Array]]
 [[1290. Convert Binary Number in a Linked List to Integer]]
 [[868. Binary Gap]]
+[[191. Number of 1 Bits]]
+[[268. Missing Number]]

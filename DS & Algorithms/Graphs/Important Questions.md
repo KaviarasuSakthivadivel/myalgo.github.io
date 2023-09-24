@@ -15,6 +15,7 @@
 [[994. Rotting Oranges]]
 [[1293. Shortest Path in a Grid with Obstacles Elimination]]
 [[2101. Detonate the Maximum Bombs]]
+[[339. Nested List Weight Sum]]
 
 ## Interesting way to solve - Reverse Thinking
 

@@ -3,3 +3,8 @@
 [[1060. Missing Element in Sorted Array]]
 
 
+## Cyclic Sort
+
+[[1539. Kth Missing Positive Number]]
+
+

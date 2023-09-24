@@ -8,6 +8,7 @@
 * [[1838. Frequency of the Most Frequent Element]]
 * [[1456. Maximum Number of Vowels in a Substring of Given Length]]
 * [[1343. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold]]
+* [[1658. Minimum Operations to Reduce X to Zero]]
 
 - 1358. [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/discuss/516977/JavaC++Python-Easy-and-Concise)
 - 1248. [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/discuss/419378/JavaC%2B%2BPython-Sliding-Window-atMost(K)-atMost(K-1))

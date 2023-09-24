@@ -51,7 +51,7 @@ _Figure 6. Situation 2: The subarray starts somewhere in the middle._
 [[974. Subarray Sums Divisible by K]]
 [[1854. Maximum Population Year]]
 [[2439. Minimize Maximum of Array]]
-
+[[1658. Minimum Operations to Reduce X to Zero]]
 
 # 2d Questions
 

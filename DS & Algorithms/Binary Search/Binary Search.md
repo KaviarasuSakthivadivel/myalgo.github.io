@@ -79,6 +79,8 @@ int binarySearch(int[] nums, int target){
 [[33. Search in Rotated Sorted Array]]
 [[1498. Number of Subsequences That Satisfy the Given Sum Condition]]
 [[981. Time Based Key-Value Store]]
+[[1283. Find the Smallest Divisor Given a Threshold]]
+[[1150. Check If a Number Is Majority Element in a Sorted Array]]
 
 
 # Binary Search Template II

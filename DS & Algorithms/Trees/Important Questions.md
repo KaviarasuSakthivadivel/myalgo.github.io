@@ -3,6 +3,7 @@
 [[235. Lowest Common Ancestor of a Binary Search Tree]]
 [[958. Check Completeness of a Binary Tree]]
 [[2458. Height of Binary Tree After Subtree Removal Queries]]
+[[114. Flatten Binary Tree to Linked List]]
 
 ### Traversal
 [[652. Find Duplicate Subtrees]]
@@ -11,6 +12,7 @@
 [[366. Find Leaves of Binary Tree]]
 [[938. Range Sum of BST]]
 [[863. All Nodes Distance K in Binary Tree]]
+[[114. Flatten Binary Tree to Linked List]]
 
 ### LCA
 [[2096. Step-By-Step Directions From a Binary Tree Node to Another]]
@@ -20,6 +22,5 @@
 
 
 # BST
-
 [[669. Trim a Binary Search Tree]]
 
