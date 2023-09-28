@@ -1,5 +1,6 @@
 [[50. Pow(x, n)]]
 [[697. Degree of an Array]]
+[[670. Maximum Swap]]
 
 
 ## Randomised

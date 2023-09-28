@@ -10,6 +10,7 @@
 8. [[350. Intersection of Two Arrays II]]
 9. [[349. Intersection of Two Arrays]]
 10. [[2023. Number of Pairs of Strings With Concatenation Equal to Target]]
+11. [[249. Group Shifted Strings]]
 
 
 # Interview Pen Questions
