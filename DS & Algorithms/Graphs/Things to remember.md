@@ -21,6 +21,16 @@ for(int i = 0; i < 4; ++i) {
 }
 ```
 
+# DFS 8-directions
+
+```java
+private int[][] directions = new int[][]{
+
+{1, -1}, {1, 0}, {1, 1}, {0, -1}, {0, 1}, {-1, -1}, {-1, 0}, {-1, 1}
+
+};
+```
+
 
 # DFS and BFS
 

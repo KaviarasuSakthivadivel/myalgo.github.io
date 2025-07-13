@@ -77,3 +77,9 @@ private int gcd(int x, int y) {
 }
 ```
 
+# Convert (row, col) to cell number
+
+```java
+int cell = row * columnSize + col;
+```
+

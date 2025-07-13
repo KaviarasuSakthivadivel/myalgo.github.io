@@ -7,4 +7,6 @@
 ## Easy 
 
 [[70. Climbing Stairs]]
+[[931. Minimum Falling Path Sum]]
+[[746. Min Cost Climbing Stairs]]
 

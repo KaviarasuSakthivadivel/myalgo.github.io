@@ -81,6 +81,7 @@ int binarySearch(int[] nums, int target){
 [[981. Time Based Key-Value Store]]
 [[1283. Find the Smallest Divisor Given a Threshold]]
 [[1150. Check If a Number Is Majority Element in a Sorted Array]]
+[[1095. Find in Mountain Array]]
 
 
 # Binary Search Template II
